@@ -1,0 +1,147 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="YpchzaTWPK5JIWgmERxb">
+    <mxGraphModel dx="858" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Hệ thống quản lý bán vé máy bay (&lt;span lang=&quot;EN-US&quot; style=&quot;line-height: 115%; font-family: Arial, sans-serif;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Use Case Diagram&lt;/font&gt;&lt;/span&gt;)" vertex="1">
+          <mxGeometry height="450" width="420" x="150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-3" parent="AUt5X_WRNi_4Ed81xRCR-1" style="ellipse;whiteSpace=wrap;html=1;" value="Tìm kiếm chuyến bay" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-6" parent="AUt5X_WRNi_4Ed81xRCR-1" style="ellipse;whiteSpace=wrap;html=1;" value="mua vé" vertex="1">
+          <mxGeometry height="50" width="90" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-9" parent="AUt5X_WRNi_4Ed81xRCR-1" style="ellipse;whiteSpace=wrap;html=1;" value="Đăng nhập&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="80" x="185" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-8" parent="AUt5X_WRNi_4Ed81xRCR-1" style="ellipse;whiteSpace=wrap;html=1;" value="thêm chuyến bay" vertex="1">
+          <mxGeometry height="40" width="80" x="295" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-10" parent="AUt5X_WRNi_4Ed81xRCR-1" style="ellipse;whiteSpace=wrap;html=1;" value="Xem báo cáo" vertex="1">
+          <mxGeometry height="40" width="80" x="60" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-11" parent="AUt5X_WRNi_4Ed81xRCR-1" style="ellipse;whiteSpace=wrap;html=1;" value="Cập nhật trạng thái vé" vertex="1">
+          <mxGeometry height="50" width="95" x="280" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-20" edge="1" parent="AUt5X_WRNi_4Ed81xRCR-1" source="AUt5X_WRNi_4Ed81xRCR-6" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="AUt5X_WRNi_4Ed81xRCR-9" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.1749" y="13" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="160" y="260" as="sourcePoint" />
+            <mxPoint x="320" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-21" parent="AUt5X_WRNi_4Ed81xRCR-1" style="ellipse;whiteSpace=wrap;html=1;" value="Xem chi tiết vé" vertex="1">
+          <mxGeometry height="40" width="80" x="210" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-24" edge="1" parent="AUt5X_WRNi_4Ed81xRCR-1" source="AUt5X_WRNi_4Ed81xRCR-21" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AUt5X_WRNi_4Ed81xRCR-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.2" y="-19" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="160" y="250" as="sourcePoint" />
+            <mxPoint x="320" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Khách hàng" vertex="1">
+          <mxGeometry height="60" width="30" x="60" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AUt5X_WRNi_4Ed81xRCR-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90" y="146" as="sourcePoint" />
+            <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Quản lý" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-12" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Nhân viên bán vé" vertex="1">
+          <mxGeometry height="60" width="30" x="640" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="AUt5X_WRNi_4Ed81xRCR-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="260" as="sourcePoint" />
+            <mxPoint x="420" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-16" edge="1" parent="1" source="AUt5X_WRNi_4Ed81xRCR-11" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="400" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-18" edge="1" parent="1" source="AUt5X_WRNi_4Ed81xRCR-5" style="endArrow=none;html=1;rounded=0;" target="AUt5X_WRNi_4Ed81xRCR-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="330" as="sourcePoint" />
+            <mxPoint x="420" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AUt5X_WRNi_4Ed81xRCR-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="420" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-25" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Khách hàng" vertex="1">
+          <mxGeometry height="176" width="160" x="70" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-26" parent="AUt5X_WRNi_4Ed81xRCR-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-maKhachHang: String&lt;div&gt;-tenKhachHang: String&lt;/div&gt;&lt;div&gt;-email: String&lt;/div&gt;&lt;div&gt;-sodienthoai: int&lt;/div&gt;&lt;div&gt;-matkhau: str&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-27" parent="AUt5X_WRNi_4Ed81xRCR-25" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="18" width="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-28" parent="AUt5X_WRNi_4Ed81xRCR-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+Choncho(maGhe: String) : Boolen&amp;nbsp;&lt;div&gt;+Xemchitiet(): void&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="58" width="160" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-29" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Chuyến bay" vertex="1">
+          <mxGeometry height="110" width="160" x="320" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-30" parent="AUt5X_WRNi_4Ed81xRCR-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-maChuyenbay: String&lt;div&gt;-tenChuyenbay: String&lt;/div&gt;&lt;div&gt;-soLuong: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-31" parent="AUt5X_WRNi_4Ed81xRCR-29" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="10" width="160" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-32" parent="AUt5X_WRNi_4Ed81xRCR-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+XemDiemcatcanh(): void" vertex="1">
+          <mxGeometry height="30" width="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-33" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Đơn mua vé" vertex="1">
+          <mxGeometry height="150" width="160" x="550" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-34" parent="AUt5X_WRNi_4Ed81xRCR-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-maVe: String&lt;div&gt;-trangThai: string&lt;/div&gt;&lt;div&gt;-ngayMuave : Date&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-35" parent="AUt5X_WRNi_4Ed81xRCR-33" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-36" parent="AUt5X_WRNi_4Ed81xRCR-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+Tinhtien(): boolen" vertex="1">
+          <mxGeometry height="52" width="160" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-37" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Nhân viên bán vé" vertex="1">
+          <mxGeometry height="110" width="160" x="220" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-38" parent="AUt5X_WRNi_4Ed81xRCR-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-Manhanvien: string" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-39" parent="AUt5X_WRNi_4Ed81xRCR-37" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-40" parent="AUt5X_WRNi_4Ed81xRCR-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+KiemTraVe(maGhe): boolen" vertex="1">
+          <mxGeometry height="50" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-41" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Ghế" vertex="1">
+          <mxGeometry height="140" width="160" x="530" y="876" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-42" parent="AUt5X_WRNi_4Ed81xRCR-41" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-maGhe: String&lt;div&gt;-hangGhe: String&lt;/div&gt;&lt;div&gt;-trangThai: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-43" parent="AUt5X_WRNi_4Ed81xRCR-41" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AUt5X_WRNi_4Ed81xRCR-44" parent="AUt5X_WRNi_4Ed81xRCR-41" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+GiasoluongGhe(): void" vertex="1">
+          <mxGeometry height="42" width="160" y="98" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
